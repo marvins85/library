@@ -1,0 +1,104 @@
+/* Button used to open form */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    margin: 30px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 330px;
+    padding: 20px;
+    background-color: lightgrey;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  /* card for book info */
+  .card {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    background: #c4aaaa;
+    margin: 30px;
+    height: 300px;
+    width: 250px;
+    padding-top: 25px;
+    border-radius: 15px;
+  }
+
+  /* header and button container */
+  .head{
+    margin-left: 30px;
+  }
+
+  #demo{
+    display: flex;
+    
+  }
+
+  .butt{
+    position: relative;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+  }
+
+  .but{
+    position: relative;
+    margin-top: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+  }

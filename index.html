@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book</title>
+</head>
+<body>
+  <div class="head">
+    <h1>Library</h1><div id="error"></div>
+    <button type="submit" class="open-button" onclick="openForm()">Add Book</button>
+  </div>
+
+    <ul id="demo"></ul>
+
+    <!-- pop-up form -->
+    <div class="form-popup" id="myForm">
+        <form class="form-container">
+    
+          <label for="title"><b>Title</b></label>
+          <input id="title" type="text" placeholder="Enter Title" name="title" required>
+      
+          <label for="author"><b>Author</b></label>
+          <input id="author" type="text" placeholder="Enter Author" name="author" required>
+
+          <label for="pages"><b>Pages</b></label>
+          <input id="pages" type="text" placeholder="Enter Pages" name="pages" required>
+      
+          <button type="submit" class="btn" onclick="addBookToLibrary(event)">Add</button>
+          <!-- łø<button type="button" class="btn cancel" onclick="closeForm()">Close</button> -->
+        </div>
+      </form>
+    
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
